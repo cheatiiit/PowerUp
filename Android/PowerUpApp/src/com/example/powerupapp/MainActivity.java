@@ -24,7 +24,6 @@ public class MainActivity extends Activity {
 	    		Intent myIntent = new Intent(MainActivity.this,
 	    				CreatorRoom.class);
 	    		startActivityForResult(myIntent, 0);
-	    		//setContentView(R.layout.activity_main);
 	        }
 	    });
 	    
@@ -34,13 +33,9 @@ public class MainActivity extends Activity {
 	        public void onClick(View v) {
 	    		Intent myIntent = new Intent(MainActivity.this, Game.class);
 	    		startActivityForResult(myIntent, 0);
-	    		//setContentView(R.layout.activity_main);
 	        }
 	    });
 	    
-		//Intent myIntent = new Intent(MainActivity.this, Game.class);
-		//startActivityForResult(myIntent, 0);
-		// setContentView(R.layout.activity_main);
 	}
 
 	@Override
